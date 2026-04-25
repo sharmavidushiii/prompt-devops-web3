@@ -1,3 +1,5 @@
+import json
+
 def analyze_devops_log(log):
     return {
         "issue": "Server timeout",
@@ -16,7 +18,7 @@ def analyze_web3_issue(error):
 
 if __name__ == "__main__":
     print("DevOps Analysis:")
-    print(analyze_devops_log("Server timeout error"))
+    print(json.dumps(analyze_devops_log("Server timeout error"), indent=2))
 
     print("\nWeb3 Analysis:")
-    print(analyze_web3_issue("Transaction failed"))
+    print(json.dumps(analyze_web3_issue("Transaction failed"), indent=2))
