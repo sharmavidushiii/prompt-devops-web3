@@ -1,12 +1,13 @@
+DevOps Analysis:
 {
-  "DevOps Analysis": {
-    "issue": "Server timeout",
-    "severity": "High",
-    "solution": "Check server load and restart service"
-  },
-  "Web3 Analysis": {
-    "problem": "Transaction failure",
-    "cause": "Insufficient gas fee",
-    "fix": "Increase gas limit and retry"
-  }
+  "issue": "Server timeout",
+  "severity": "High",
+  "solution": "Check server load and restart service"
+}
+
+Web3 Analysis:
+{
+  "problem": "Transaction failure",
+  "cause": "Insufficient gas fee",
+  "fix": "Increase gas limit and retry"
 }
