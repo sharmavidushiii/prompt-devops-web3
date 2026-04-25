@@ -31,7 +31,7 @@ This helps the AI provide domain-specific and accurate responses.
 Structured outputs ensure consistency.
 
 Example:
-```json
+json
 {
   "issue": "",
   "severity": "",
