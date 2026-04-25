@@ -1,12 +1,12 @@
 {
-  "devops_example": {
+  "DevOps Analysis": {
     "issue": "Server timeout",
     "severity": "High",
-    "solution": "Restart server and check load balancer configuration"
+    "solution": "Check server load and restart service"
   },
-  "web3_example": {
+  "Web3 Analysis": {
     "problem": "Transaction failure",
     "cause": "Insufficient gas fee",
-    "fix": "Increase gas limit and retry transaction"
+    "fix": "Increase gas limit and retry"
   }
 }
