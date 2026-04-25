@@ -1,0 +1,26 @@
+`prompts/devops.txt`
+
+```txt
+Role: Senior DevOps Engineer
+
+Task: Analyze system logs and identify issues.
+
+Instructions:
+- Identify the issue
+- Assign severity (Low, Medium, High)
+- Suggest a solution
+
+Input:
+{{logs}}
+
+Output (JSON format only):
+{
+  "issue": "",
+  "severity": "",
+  "solution": ""
+}
+
+Constraints:
+- Be concise
+- Do not assume missing data
+- Use only provided input

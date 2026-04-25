@@ -1,0 +1,12 @@
+{
+  "devops_example": {
+    "issue": "Server timeout",
+    "severity": "High",
+    "solution": "Restart server and check load balancer configuration"
+  },
+  "web3_example": {
+    "problem": "Transaction failure",
+    "cause": "Insufficient gas fee",
+    "fix": "Increase gas limit and retry transaction"
+  }
+}

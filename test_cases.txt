@@ -1,0 +1,9 @@
+DevOps Test Cases:
+1. Server timeout error
+2. Kubernetes pod crash due to memory issue
+3. CI/CD pipeline failed during deployment
+
+Web3 Test Cases:
+1. Transaction failed due to insufficient gas
+2. Smart contract deployment failed
+3. RPC connection timeout
